@@ -31,7 +31,7 @@ section {
 }
 .projects {
     padding: 30px 0 100px 0;
-    background: url('../../../Portfolio/assets/fond.jpg') no-repeat center center fixed;
+    background: url('../../assets/fond.jpg') no-repeat center center fixed;
     background-size: cover;
     &-layout {
         width: 80%;
@@ -173,15 +173,38 @@ section {
     color : darkslateblue;;
 }
 
-.logo-html-css { 
-    width: 140px;
-}
-.logo-js {
-    width: 150px;
-}
-.logo-sass {
-    width: 75px;
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, pink, lighten(#F6B339, 10%));
+    padding-top: 30px;
+    padding-bottom: 40px;
+    & .contact-layout{
+        display: grid;
+        & a {
+        color: black;
+        text-decoration: none;
+        }
+    }
+    & .logo-linkedin {
+        width: 140px;
+        margin-left: -30px;
+    }
+    & .logo-mail {
+        width: 80px;
+        margin-right: 35px;
+    }
 }
 .logos {
     text-align: center;
+        & .logo-html-css { 
+            width: 140px;
+        }
+        & .logo-js {
+            width: 150px;
+        }
+        & .logo-sass {
+            width: 75px;
+        }
 }
