@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px 0 10px 30px;
+    & nav {
+        padding-top: 20px;
+    }
+    & li {
+        list-style-type: none;
+        display: inline;
+        margin: 0 20px;
+    }
+    & a {
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+        &:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        }
+    }
+}
+h1 {
+    font-size: xx-large;
+}

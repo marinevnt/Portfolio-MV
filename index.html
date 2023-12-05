@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    <script type="module" src="./main.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>VENIAT Marine</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#cursus">Mon parcours</a></li>
+                <li><a href="#projects">Mes projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="animation-delay">
+            <article class="article-layout animation-opacity1" id="about">
+            <h2>À propos de moi</h2>
+            <p>Lorem ipsum dolor sit amet. Sed enim omnis qui dolorem voluptate ut Quis culpa qui quia magnam id doloremque culpa. Eum tenetur veritatis et sequi saepe et doloremque nesciunt qui accusamus autem ex deserunt commodi ut praesentium fuga. Ex culpa voluptas qui aliquid quis et numquam rerum est expedita dolorem eum consequatur dolor sit explicabo totam sit fugit voluptas. </p>
+            </article>
+            <article class="article-layout article-layout-custom animation-opacity2" id="cursus">
+                <h2>Mon parcours</h2>
+                <p>Nam eligendi perferendis et dolor facere qui asperiores velit sit amet perferendis ab cupiditate asperiores rem aliquam soluta! Aut veniam enim ut eligendi sapiente et perferendis aliquid sed quidem sint id eius deleniti. In provident exercitationem qui mollitia omnis aut illo sequi aut nihil esse eum voluptatibus quia hic dolor corrupti ea voluptatum cumque? Qui nihil adipisci sed sapiente autem ex aliquid sunt. </p>
+            </article>
+            <article class="article-layout animation-opacity3" id="projects">
+                <h2>Compétences</h2>
+                <p>Et rerum accusamus est fuga consequuntur est commodi dolorem qui autem sequi et nesciunt vero. Sit placeat veritatis in animi odit et dolorem incidunt. </p>
+            </article>
+        </section>
+        <div class="projects">
+            <h2>Mes projets</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 projects-layout">
+            </div>
+        </div>
+        
+        <div class="modal fade" tabindex="-1" role="dialog" id="projectModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalTitle"></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-image-container">
+                    <img src="" class="modal-image" alt="">
+                    </div>
+                    <div>
+                        <h3>Description du projet</h3>
+                        <p class="modal-description" id="modal-description"></p>
+                    </div> 
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
+       
+        
+
+        <div class="form" id="contact">
+            <h2>Me contacter</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="nom" class="form-label">Nom :</label>
+                    <input type="text" class="form-control" id="nom">
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Adresse email :</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message :</label>
+                  <textarea class="form-control" id="message" rows="4"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-custom">Envoyer</button>
+                </div>
+              </form>
+            </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

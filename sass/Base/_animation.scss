@@ -1,0 +1,24 @@
+
+@keyframes fadeInAndTranslate {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animation-opacity1 {
+    animation: fadeInAndTranslate 2000ms forwards;
+    animation-delay: 200ms;
+}
+.animation-opacity2 {
+    animation: fadeInAndTranslate 2000ms forwards;
+    animation-delay: 600ms;
+}
+.animation-opacity3 {
+    animation: fadeInAndTranslate 2000ms forwards;
+    animation-delay: 1000ms;
+}

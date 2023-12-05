@@ -1,0 +1,39 @@
+.modal-title {
+    width: 100%;
+    font-size: 20px;
+    
+}
+.modal-header {
+    background-color: antiquewhite;
+    border-bottom: none;
+    & button {
+        border: none;
+        font-size: xx-large;
+        color: orange;
+        background-color: antiquewhite;
+    }
+}
+.modal-body {
+    & .modal-image-container {
+        height: 360px;
+        overflow: scroll;
+        border: solid 2px antiquewhite;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    & img {
+        width: 100%;
+    }
+    & h3 {
+        font-size: 22px;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+        color: coral;
+    }
+}
+.modal-description {
+    white-space: pre-line;
+}
+
+

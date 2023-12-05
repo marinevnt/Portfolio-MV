@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import 'Utils/variables';
+
+@import 'Base/typography';
+@import 'Base/animation';
+
+@import 'Components/buttons';
+
+@import 'Layout/header';
+@import 'Layout/footer';
+@import 'Layout/form';
+
+@import 'Pages/main';
+@import 'Pages/modale';
+
+@import 'Utils/responsive';

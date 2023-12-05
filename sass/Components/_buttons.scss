@@ -1,0 +1,10 @@
+.btn-custom {
+    width: 130px;
+    border :none;
+    border-radius: 10px;
+    height: 50px;
+    &:hover {
+        text-decoration: underline; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}
