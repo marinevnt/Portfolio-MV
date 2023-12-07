@@ -30,6 +30,17 @@
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         padding: 10px 30px 10px 0
     }
+    .logos {
+        & .logo-html-css { 
+            width: 100px;
+        }
+        & .logo-js {
+            width: 100px;
+        }
+        & .logo-sass {
+            width:45px;
+        }
+    }
 }
 
 @media only screen and (max-width: 767px) {

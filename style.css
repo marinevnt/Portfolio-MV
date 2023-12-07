@@ -11974,7 +11974,7 @@ section {
 
 .projects {
   padding: 30px 0 100px 0;
-  background: url("../../assets/fond.jpg") no-repeat center center fixed;
+  background: url("./assets/fond.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .projects-layout {
@@ -12230,6 +12230,15 @@ section {
   }
   .main-timeline .timeline:nth-child(2n) .timeline-content {
     padding: 10px 30px 10px 0;
+  }
+  .logos .logo-html-css {
+    width: 100px;
+  }
+  .logos .logo-js {
+    width: 100px;
+  }
+  .logos .logo-sass {
+    width: 45px;
   }
 }
 @media only screen and (max-width: 767px) {
