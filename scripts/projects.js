@@ -9,6 +9,7 @@ const modalLinkGithub = document.querySelector('.github-link');
 const modalLinkwebsite = document.querySelector('.link-website');
 
 const siteWebLink = document.createElement('a');
+siteWebLink.target = '_blank';
 siteWebLink.innerText = 'Voir le site';
 modalLinkwebsite.appendChild(siteWebLink);
 

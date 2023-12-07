@@ -18,7 +18,6 @@ const projects = [
     description: "Ce projet tend à développer un site de location d'appartement en utilisant React. La mission est de créer l’ensemble de l’application, les composants React et des routes React Router. \nSass a été utilisé pour générer le style CSS du site web.",
     image: "./assets/kasa.JPG",
     imagewebsite: "./assets/kasapage-entirepage.png",
-    website: "https://marinevnt.github.io/Kasa----Openclassrooms/",
     gitlink: "https://github.com/marinevnt/Kasa----Openclassrooms.git"
   },
   {
