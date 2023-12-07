@@ -12211,6 +12211,7 @@ section {
   header li {
     margin-right: 5px;
     margin-left: 0px;
+    display: inline-block;
   }
   .main-timeline .item-content {
     margin-top: 35px;
