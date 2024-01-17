@@ -44,6 +44,15 @@
 }
 
 @media only screen and (max-width: 767px) {
+    body {
+        padding-top: 0;
+    }
+    header {
+        position: relative;
+    }
+    .article-layout {
+        width: 80%;
+    }
     .main-timeline {
         &:before {
             margin: 0;
@@ -76,6 +85,17 @@
             margin-left: 20px;
             text-align: center;
         }
+        .logos {
+            & .logo-html-css { 
+                width: 65px;
+            }
+            & .logo-js {
+                width: 65px;
+            }
+            & .logo-sass {
+                width:25px;
+            }
+        }
     }
     
     .main-timeline .timeline:last-child {
@@ -93,11 +113,16 @@
         text-align: center;
         padding: 10px 0
     }
-
-    form {
-        width: 80%;
+    .contact-layout {
+        & .logo-linkedin {
+            width: 70px;
+            margin-left: -15px;
+        }
+        & .logo-mail {
+            width: 40px;
+            margin-right: 16px;
+        }
     }
-    
 }
 
 

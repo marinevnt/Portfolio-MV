@@ -15,13 +15,13 @@ p{
     text-align: justify;
 }
 
-section {
+.section {
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 30px;
-    background: linear-gradient(to bottom, lighten(#F6B339, 10%), pink);
+    background: linear-gradient(to bottom, antiquewhite, #f8c66a);
 }
 .article-layout {
     width: 60%;
@@ -178,7 +178,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to bottom, pink, lighten(#F6B339, 10%));
+    background: linear-gradient(to bottom, #f8c66a, antiquewhite);
     padding-top: 30px;
     padding-bottom: 40px;
     & .contact-layout{
